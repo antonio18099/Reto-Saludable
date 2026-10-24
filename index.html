@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#176b43"><meta name="description" content="Juego educativo de alimentación saludable">
+<title>Reto Saludable</title><link rel="stylesheet" href="styles.css">
+</head><body>
+<header class="topbar"><a class="brand" href="#"><span class="logo">🥑</span> Reto<span>Saludable</span></a><span class="pill">JUEGO EDUCATIVO</span></header>
+<main class="wrap">
+<section class="intro"><div class="eyebrow">● APRENDE JUGANDO</div><h1>Pequeñas respuestas,<br><em>grandes hábitos.</em></h1><p>Responde preguntas sobre alimentación saludable, gana fichas y descubre el mensaje secreto pieza por pieza.</p><div class="tags"><span>🍎 Nutrición</span><span>🧠 Conocimiento</span><span>🧩 Rompecabezas</span></div></section>
+<section class="game">
+<div class="stats"><div><small>TU PROGRESO</small><strong id="progressText">Pregunta 1 de 8</strong></div><div class="score"><small>FICHAS</small><strong>◆ <b id="score">0</b></strong></div></div>
+<div class="track"><div id="progressBar"></div></div>
+<div class="columns">
+<section class="quiz"><div class="qmeta"><span id="category" class="category">VITAMINAS</span><small id="questionNumber">01 / 08</small></div><h2 id="question">Cargando pregunta...</h2><p id="hint" class="hint">Elige una respuesta.</p><div id="options" class="options"></div><div id="feedback" class="feedback" aria-live="polite" hidden></div><button id="submit" class="primary" disabled>Comprobar respuesta <span>→</span></button><button id="next" class="primary" hidden>Siguiente pregunta <span>→</span></button><p class="note">✓ Solo las respuestas correctas otorgan fichas.</p></section>
+<aside class="puzzle-card"><div class="puzzle-head"><div><small>TU OBJETIVO</small><h2>Descubre la imagen</h2></div><span class="puzzle-emoji">🧩</span></div><p>Una respuesta correcta revela una parte del mensaje saludable.</p><div id="puzzle" class="puzzle" aria-label="Rompecabezas de ocho piezas"></div><div class="puzzle-count"><span><b id="revealed">0</b> de 8 piezas reveladas</span><b id="percent">0%</b></div><div class="mini-track"><div id="puzzleBar"></div></div><div class="legend"><span>●</span> Por descubrir <span class="green">●</span> Descubierta</div></aside>
+</div><div class="bottom"><span>🌱 Un hábito saludable comienza con aprender.</span><button id="restart" class="text-button">↻ Reiniciar juego</button></div>
+</section><footer>RETO SALUDABLE · Aprende a elegir mejor cada día</footer></main>
+<dialog id="result"><div class="celebrate" id="celebrate">🎉</div><small>¡RETO COMPLETADO!</small><h2 id="resultTitle">¡Lo lograste!</h2><p id="resultText"></p><div class="final-message">🥗 Comer variado es cuidar de ti.</div><button id="playAgain" class="primary">Jugar de nuevo ↻</button></dialog>
+<script src="script.js"></script></body></html>

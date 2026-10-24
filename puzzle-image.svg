@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+<defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#d9f99d"/><stop offset="1" stop-color="#86c96b"/></linearGradient></defs>
+<rect width="400" height="200" fill="url(#g)"/>
+<circle cx="55" cy="55" r="29" fill="#ef4444"/><path d="M55 26q-2-14 12-17" stroke="#166534" stroke-width="5" fill="none" stroke-linecap="round"/><ellipse cx="70" cy="12" rx="10" ry="5" fill="#16a34a"/>
+<circle cx="150" cy="55" r="29" fill="#fbbf24"/><path d="M150 27q7-13 17-10" stroke="#166534" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M235 24q32 0 32 34 0 37-32 47-32-10-32-47 0-34 32-34Z" fill="#22c55e"/><path d="M235 29v70" stroke="#166534" stroke-width="3"/>
+<path d="M300 34q31-25 61 5l-13 50q-27 13-50-8Z" fill="#facc15"/><path d="m301 38 45 47" stroke="#eab308" stroke-width="3"/>
+<circle cx="93" cy="132" r="25" fill="#fb7185"/><path d="M93 108q-3-12 10-14" stroke="#166534" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M171 119q20-24 42 0l-8 58h-28Z" fill="#f97316"/><path d="M174 120l-8-12m20 12-1-16m15 17 8-13" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="270" cy="143" r="28" fill="#a855f7"/><path d="M270 115q-5-15 10-19" stroke="#166534" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g fill="#14532d" font-family="Arial,sans-serif" font-weight="800" text-anchor="middle"><text x="200" y="194" font-size="16">COME VARIADO</text></g>
+</svg>
