@@ -21,3 +21,11 @@ La imagen de ejemplo es `puzzle-image.svg`. El rompecabezas muestra ocho piezas 
 También puedes usar Netlify Drop: https://app.netlify.com/drop
 
 Contenido educativo general; revisa las preguntas según la edad y el objetivo de tu grupo.
+
+
+## Dificultad progresiva
+- **Nivel 1 — Fácil (preguntas 1 y 2):** reconocer alimentos y hábitos básicos. Recompensa: 1 ficha por acierto.
+- **Nivel 2 — Intermedio (preguntas 3 a 5):** relacionar nutrientes con sus funciones y aplicar ideas de alimentación equilibrada. Recompensa: 2 fichas por acierto.
+- **Nivel 3 — Difícil (preguntas 6 a 8):** analizar etiquetas y resolver situaciones de seguridad alimentaria y decisiones cotidianas. Recompensa: 3 fichas por acierto.
+
+La dificultad y las recompensas se configuran en cada pregunta del arreglo `QUESTIONS` dentro de `script.js`.
